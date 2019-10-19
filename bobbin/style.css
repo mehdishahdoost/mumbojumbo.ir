@@ -1,0 +1,65 @@
+/*   
+Theme Name: Bobbin
+Description: Bobbin Design for use in mumbojumbo.ir
+Author: mumbojumbo
+Author URI: http://mumbojumbo.ir
+Version: 5
+*/
+body{background-image:url(images/bg.jpg);background-repeat:repeat;direction:rtl}
+#header{background-image:url(images/header.jpg);background-repeat:no-repeat;height:432px;background-position:center}
+#post{background-image:url(images/note.png);background-repeat:repeat-y;height:auto;background-position:center}
+#spacer{height:60px;}
+#bt{width:150px}
+#footer{background-image:url(images/footer.jpg);background-position:center;background-repeat:no-repeat;height:76px;}
+#top{background-image:url(images/paperbak.gif);background-repeat:no-repeat;background-position:center;height:100px}
+#sfooter{ background-image:url(images/sfooter.jpg);height:162px;background-position:center;background-repeat:no-repeat}
+#panel{background-image:url(images/bg3.jpg);height:auto;background-repeat:repeat;background-position:center}
+#post{ background-image:url(images/panel2.jpg);background-repeat:repeat-y;background-position:center;height:auto}
+#foot{background-image:url(images/foot.jpg);background-repeat:no-repeat;background-position:center;height:76px}
+#date{ font-family:zNassim,Tahoma;font-size:12px;text-align:right;color:#584214;width:615px}
+#com{ font-family:zNassim,Tahoma;font-size:12px;text-align:right;color:#584214;width:615px}
+#com a{ color:#584214;text-decoration:none}
+#stop{background-image:url(images/stop.jpg);background-repeat:no-repeat;background-position:center;height:76px}
+.title{font-family:Arial;font-size:17px;font-weight:bold;color:#000000;text-align:right;width:615px}
+.title a{color:#000000;text-decoration:none;font-family:zNassim;font-size:24px}
+#txt{text-align:right;text-indent:10px;height:auto;font-family:Tahoma;font-size:11px;font-weight:bold}
+#txt a{background:transparent url(images/ahref.gif) repeat-x scroll right bottom;color:#333333;margin-left:2px;margin-right:2px;padding-bottom:0px;padding-left:2px;padding-right:2px;
+text-decoration:none;}
+#holetxt{background-image: url(images/note.png);background-repeat:repeat;background-position: 10px 2px;font-family: zNassim;
+    font-size: 18px;}
+#comment{background-image:url(images/panel.jpg);height:auto;background-repeat:repeat-y;background-position:center;font-family:Tahoma;font-size:10px}
+.clou{ color:#000000;font-family:zNassim,Tahoma;font-size:12px;margin-top:30px;font-weight:bold}
+.clou a{color:#000000;text-decoration:none}
+.clou ul{ text-align:right;direction:rtl}
+.clou li{margin-bottom:10px}
+.lihead{ font-family:zNassim,arial;font-size:18px;font-weight:bold}
+#comment a{ text-decoration:none;color:#000000}
+.input{border:none;background-repeat:repeat;font-family:tahoma;font-size:12px}
+.commtxt{float:right;text-indent:10px;text-align:right;font-family:zNassim,tahoma;font-size:12px}
+.imgframe{display: block;margin-right:40px;position: relative;background-color: #fff;border: 1px solid #a9a9a9; margin: -6px 6px 6px -6px;
+  padding: 4px;margin-left:auto;margin-right:auto;}
+#formcontainer{background-image:url(images/panel.jpg);height:auto;background-repeat:repeat-y;background-position:center;}
+#author,#emailtxt,#url,#submit,#subscribe,#subscribebutton{background-color:#ecdbb0;border: 1px solid black;text-indent:3px;height:25px;
+padding-top:5px;-moz-border-radius:5px;-webkit-border-radius:5px;}
+p::selection {background: #ffb7b7;}
+span::selection {background: #ffb7b7;}
+a::selection {background: #ffb7b7;}
+p::-moz-selection {background: #b6a37b;}
+span::-moz-selection {background: #b6a37b;}
+strong::-moz-selection {background: #b6a37b;}
+a::-moz-selection {background: #b6a37b;}
+b::-moz-selection {background: #b6a37b;}
+#pagenav{margin-left:auto;margin-right:auto;width:400px;height:40px;font-family:arial;font-size:16px;
+text-decoration:none;color:#000000;}
+#pagenav #next a{float:left;text-decoration:none;color:black;font-weight:bold;
+background:transparent url(images/page.gif) repeat-x scroll right bottom;padding-bottom:6px;
+text-decoration:none;padding-right:5px;padding-left:5px;width:100px;}
+#pagenav #previous a{float:right;text-decoration:none;color:black;font-weight:bold;
+background:transparent url(images/page.gif) repeat-x scroll right bottom;
+padding-bottom:6px;text-decoration:none;padding-right:5px;padding-left:5px;width:100px;}
+#adver{height:110px}
+p{white-space:normal;line-height:2;font-family: zNassim;font-size:16px;}
+@font-face {font-family: "zNassim";font-style: normal; font-weight: normal;
+    src: url("media/fonts/znassim-regular.eot?#iefix") format("embedded-opentype"), url("media/fonts/znassim-regular.woff") format("woff"), url("media/fonts/znassim-regular.ttf") format("truetype"), url("media/fonts/znassim-regular.svg#zNassim") format("svg");
+}
+.form{font-family:zNassim}
