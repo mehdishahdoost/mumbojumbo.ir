@@ -10,3 +10,9 @@ https://mehdishahdoost.github.io/mumbojumbo.ir/
 # MumboJumbo Wordpress Template
 
 mumbojumbo's template avaiable in bobbin folder.
+
+# Stats
+
+Posts: 934
+
+Comments: 11303
