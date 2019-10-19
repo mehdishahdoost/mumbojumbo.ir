@@ -1,0 +1,179 @@
+@media print {
+    .pmb-waiting-message-fullpage{
+        display:none;
+    }
+    .pmb-preview-note{
+        display:none;
+    }
+}
+@media not print{
+    .pmb-posts{
+        display: none;
+        width: 1000px;
+        margin: 10em auto 0 auto;
+        box-shadow:0.5em 1em darkgray;
+        background-color:white;
+        border: 1px solid darkgray;
+        padding: 6em;
+    }
+
+    .pmb-posts img{
+        max-width:100%;
+    }
+
+    body.pmb-print-page{
+        background-color:lightgray;
+    }
+}
+
+.pmb-waiting-message-fullpage{
+    color:black;
+    z-index:1000;
+    position: fixed;
+    left: 50%;
+    top:0;
+    transform: translate(-50%, 32px);
+    width:25em;
+    max-width:96%;
+}
+
+.pmb-waiting-message-outer-container{
+    background-color:white;
+    box-shadow: 0.5em 1em darkgray;
+    border:1px solid darkgray;
+    padding-bottom: 1em;
+}
+
+.pmb-extra-content{
+    text-align:center;
+}
+
+.pmb-posts-placeholder{
+    /*position: fixed;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%, -2em);
+    */
+}
+
+div.pmb-post-header{
+    page-break-inside:avoid;
+}
+.pmb-page-break{
+    page-break-before: always;
+}
+/* On the print page, try to avoid page breaks in the middle of images*/
+.pmb-image{
+    page-break-inside:avoid;
+}
+.pmb-header{
+    page-break-inside:avoid;
+    page-break-after:avoid;
+}
+button{
+    background-color:lightskyblue;
+}
+.print-preview-instructions ol{
+     text-align:left;
+     padding: 0 2em 0 2em;
+ }
+.pmb-error{
+    margin:1em;
+}
+.entry-excerpt{
+    font-style:italic;
+}
+div.tiled-gallery{
+    page-break-inside:avoid;
+}
+.pmb-waiting-h1{
+    margin-top:1em;
+}
+.pmb-help{
+    position:absolute;
+    top:0;
+    right:0;
+    line-height:1em;
+    font-size:0.8em;
+    color:gray;
+    margin-top:5px;
+    margin-right:5px;
+}
+.pmb-help a{
+    color:lightblue;
+}
+.pmb-help a:hover{
+    color:blue;
+}
+
+.pmb-window-buttons{
+    position:absolute;
+    top:0;
+    left:0;
+    line-height:1em;
+    font-size:0.8em;
+    color:gray;
+    margin-top:5px;
+    margin-left:5px;
+}
+
+.pmb-posts-body article.pmb-post-article{
+    float:none;
+    width:100%;
+}
+
+.pmb-divider{
+    margin-bottom:3em;
+}
+.pmb-posts .wp-caption{
+    max-width:100%;
+}
+
+.youtube-player{
+    max-width:100%;
+}
+
+@media screen and (max-width: 782px) {
+    .pmb-waiting-message-fullpage{
+        transform: translate(-50%, 46px);
+    }
+}
+h1.pmb-waiting-h1{
+    color:black;
+}
+p.pmb-status{
+    color:black;
+}
+/* default to making each PMB post metasection not go inline */
+span.pmb-post-meta{
+    display:block;
+}
+
+.pmb-preview-note{
+    position: fixed;
+    bottom:0;
+    left:0;
+    line-height:1em;
+    background-color:white;
+    opacity:0.5;
+    z-index:1000;
+    color:black;
+}
+div.pmb-youtube-video-replacement-wrapper{
+    page-break-inside:avoid;
+    text-align:center;
+}
+div.pmb-youtube-video-replacement-header{
+    display:inline-block;
+}
+div.pmb-youtube-video-replacement-icon{
+    display:inline-block;
+    text-align:center;
+}
+div.pmb-youtube-video-replacement-icon img{
+    vertical-align:middle;
+    font-size:3em;
+}
+div.pmb-youtube-video-replacement-text{
+    display:inline-block;
+}

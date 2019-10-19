@@ -1,0 +1,35 @@
+.pmb-spinner {
+    background: url('/wp-admin/images/wpspin_light.gif') no-repeat;
+    background-size: 16px 16px;
+    margin-left:auto;
+    margin-right:auto;
+    opacity: .7;
+    filter: alpha(opacity=70);
+    width: 16px;
+    height: 16px;
+}
+
+.pmb-hidden-initially{
+    display:none;
+}
+
+.pmb-wide-input{
+    min-width:20em;
+}
+
+/* If users add the CSS class "pmb-print-only" we want it to be hidden on the frontend... */
+.pmb-print-only{
+    display:none;
+}
+/* ...but not when printing with Print My Blog...*/
+.pmb-posts .pmb-print-only{
+    display:block;
+}
+/* ...or when viewing from the editor */
+.block-editor .pmb-print-only{
+    display:block;
+}
+/* And when they add the CSS class "pmb-screen-only", hide it while printing with Print My Blog */
+.pmb-posts .pmb-screen-only{
+    display:none;
+}
