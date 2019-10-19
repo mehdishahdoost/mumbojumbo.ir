@@ -6,3 +6,7 @@ Archive of mumbojumbo weblog from 2008 to 2019
 https://mehdishahdoost.github.io/mumbojumbo.ir/
 
 ![alt text](https://github.com/mehdishahdoost/mumbojumbo.ir/raw/master/shots/images/bg.png)
+
+# MumboJumbo Wordpress Template
+
+mumbojumbo's template avaiable in bobbin folder.
